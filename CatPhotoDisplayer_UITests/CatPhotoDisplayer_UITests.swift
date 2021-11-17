@@ -1,21 +1,22 @@
 //
-//  CatPhotoDisplayerUITests.swift
-//  CatPhotoDisplayerUITests
+//  CatPhotoDisplayer_UITests.swift
+//  CatPhotoDisplayer_UITests
 //
-//  Created by Jacek K on 12/11/2021.
+//  Created by Jacek K on 17/11/2021.
 //
 
 import XCTest
 
-class CatPhotoDisplayerUITests: XCTestCase {
-  override func setUpWithError() throws {
-    continueAfterFailure = false
-  }
-  
-  override func tearDownWithError() throws {
-    
-  }
-  
+class CatPhotoDisplayer_UITests: XCTestCase {
+
+    override func setUpWithError() throws {
+        continueAfterFailure = false
+    }
+
+    override func tearDownWithError() throws {
+        
+    }
+
   func test_CatsView_List_shouldReturnTenOrZeroCats() throws {
     // Given
     let app = XCUIApplication()
@@ -31,7 +32,7 @@ class CatPhotoDisplayerUITests: XCTestCase {
     
     // Explanation
     // Expected count = 0 if there is mockService error, and 10 if mockService doesnt have error
-    // This is hard-coded assumption as we know the mockService always return 10 cats - the UI test is blackboxed, possible solution to get 
+    // This is hard-coded assumption as we know the mockService always return 10 cats - the UI test is blackboxed, possible solution to get
     let expectedCount = [0, 10]
     XCTAssert(expectedCount.contains(count))
   }

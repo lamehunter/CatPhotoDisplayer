@@ -48,6 +48,26 @@
                ReferencedContainer = "container:CatPhotoDisplayer.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B76FF11727456D3800F9EB6F"
+               BuildableName = "CatPhotoDisplayer_Tests.xctest"
+               BlueprintName = "CatPhotoDisplayer_Tests"
+               ReferencedContainer = "container:CatPhotoDisplayer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B76FF12427456D9A00F9EB6F"
+               BuildableName = "CatPhotoDisplayer_UITests.xctest"
+               BlueprintName = "CatPhotoDisplayer_UITests"
+               ReferencedContainer = "container:CatPhotoDisplayer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
